@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <section id="Weather" class="Weather">
+        <div>
+            <h1>
+                <%= name %>
+            </h1>
+            <p>
+              Time: <%= time %> <br />
+              Temperature: <%= temperature %> <br />
+              Precipitation: <%= precipitation %> <br />
+              Rain: <%= rain %>
+            </p>
+        </div>
+    </section>  
+    <button type="button" onclick="location.href = '/'">Go back</button>
+</body>
+</html>
